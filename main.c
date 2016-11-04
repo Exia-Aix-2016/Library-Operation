@@ -7,16 +7,28 @@
 int main(void)
 {
     float a = 0.0, b = 0.0;
-    printf("Hello world!\n");
-    printf("test\n");
-    printf("Release\n");
+    /*OUTDATED
+     *
+     * printf("Hello world!\n");
+       printf("test\n");
+       printf("Release\n");
+     */
+    //Affichage introduction
+
+    printf("===============================================\n\n");
+    printf("GitProject EXIA A1 Aix en provence\n");
+    printf("Program - Calculator\n");
+    printf("Credit : Hugo, Batiste, Mandel\n");
+    printf("Licence MIT\n");
+    printf("===============================================\n\n");
+    
     //On demande les nombre à l'utilisateur.
     printf("Saisissez vos nombres \n");
     printf("nombre 1\n");
     scanf("%f", &a);
     printf("nombre 2\n");
     scanf("%f", &b);
-
+    //On affiche
     printf("addition : %f\n", addition(a,b));
 	printf(" multiplication : %f\n", multi(a,b));
 	printf("soustraction : %f\n", soustraction(a,b));
