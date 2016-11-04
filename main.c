@@ -13,9 +13,9 @@ int main(void)
     //On demande les nombre à l'utilisateur.
     printf("Saisissez vos nombres \n");
     printf("nombre 1\n");
-    scanf("%d", &a);
+    scanf("%f", &a);
     printf("nombre 2\n");
-    scanf("%d", &b);
+    scanf("%f", &b);
 
     printf("addition : %f\n", addition(a,b));
 	printf(" multiplication : %f\n", multi(a,b));
