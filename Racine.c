@@ -1,5 +1,5 @@
 //
-// Created by Vaubourg on 04/11/2016.
+// Created by Akitoshi on 04/11/2016.
 //
 #include "Racine.h"
 float racine(float numb)

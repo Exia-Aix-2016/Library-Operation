@@ -1,5 +1,5 @@
 //
-// Created by Vaubourg on 04/11/2016.
+// Created by Akitoshi on 04/11/2016.
 //
 #ifndef TEST2_RACINE_H
 #define TEST2_RACINE_H
