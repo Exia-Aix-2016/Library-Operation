@@ -7,7 +7,7 @@ int main()
     printf("Hello world!\n");
     printf("test");
 
-    printf("mes couilles");
+    printf("Release");
 
     printf("%d\n", addition(2,3));
 
