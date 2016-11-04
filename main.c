@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "addition.h"
 
 int main()
 {
@@ -7,6 +8,8 @@ int main()
     printf("test");
 
     printf("mes couilles");
+
+    printf("%d\n", addition(2,3));
 
     return 0;
 }
