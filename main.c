@@ -6,16 +6,16 @@
 
 int main(void)
 {
-    int a = 0, b = 0;
+    float a = 0.0, b = 0.0;
     printf("Hello world!\n");
     printf("test\n");
     printf("Release\n");
     //On demande les nombre à l'utilisateur.
     printf("Saisissez vos nombres \n");
     printf("nombre 1\n");
-    scanf("%d", &a);
+    scanf("%f", &a);
     printf("nombre 2\n");
-    scanf("%d", &b);
+    scanf("%f", &b);
 
     printf("addition : %f\n", addition(a,b));
 	printf(" multiplication : %f\n", multi(a,b));
