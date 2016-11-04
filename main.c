@@ -3,6 +3,7 @@
 #include "addition.h"
 #include "multiplication.h"
 #include "soustraction.h"
+#include "puissance.h"
 #include "Racine.h"
 //release V2
 int main(void)
@@ -37,6 +38,7 @@ int main(void)
     printf("1. addition\n");
     printf("2. multiplication\n");
     printf("3. soustraction\n");
+    printf("4. puissance (a^b)\n");
     printf("5. Racine\n");
     scanf("%d", &choix);
 
@@ -46,13 +48,16 @@ int main(void)
             printf("resultat : %g\n", addition(a, b));
             break;
         case 2:
-            printf(" resultat : %g\n", multi(a, b));
+            printf("resultat : %g\n", multi(a, b));
             break;
         case 3:
             printf("resultat : %g\n", soustraction(a, b));
             break;
         case 4:
             printf("resultat de a : %g\n", racine(a));
+            break;
+        case 4:
+            printf("resultat : %g\n", puissance(a, b));
             break;
     }
 
