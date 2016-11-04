@@ -4,20 +4,9 @@
 
 #include "soustraction.h"
 
-void soustraction ()
+float soustraction (float a, float b)
 {
-    int a;
-    int b;
-    int c;
-
-    printf("Entrez a : ");
-    scanf("%d", &a);
-    printf("Entrez b : ");
-    scanf("%d", &b);
-
-    c = a - b;
-
-    printf("Le resultat est : %d", c);
+	return a / b;
 }
 
 
