@@ -3,13 +3,7 @@
 #include "addition.h"
 #include "multiplication.h"
 #include "soustraction.h"
-<<<<<<< HEAD
 #include "Racine.h"
-=======
-#include <math.h>
-#include "puissance.h"
-
->>>>>>> develop
 //release V2
 int main(void)
 {
@@ -43,11 +37,7 @@ int main(void)
     printf("1. addition\n");
     printf("2. multiplication\n");
     printf("3. soustraction\n");
-<<<<<<< HEAD
     printf("5. Racine\n");
-=======
-    printf("4. puissance (a^b)\n");
->>>>>>> develop
     scanf("%d", &choix);
 
     //Selection
@@ -56,17 +46,13 @@ int main(void)
             printf("resultat : %g\n", addition(a, b));
             break;
         case 2:
-            printf("resultat : %g\n", multi(a, b));
+            printf(" resultat : %g\n", multi(a, b));
             break;
         case 3:
             printf("resultat : %g\n", soustraction(a, b));
             break;
         case 4:
-<<<<<<< HEAD
             printf("resultat de a : %g\n", racine(a));
-=======
-            printf("resultat : %g\n", puissance(a, b));
->>>>>>> develop
             break;
     }
 
