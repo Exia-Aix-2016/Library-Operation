@@ -56,7 +56,7 @@ int main(void)
         case 4:
             printf("resultat de a : %g\n", racine(a));
             break;
-        case 4:
+        case 5:
             printf("resultat : %g\n", puissance(a, b));
             break;
     }

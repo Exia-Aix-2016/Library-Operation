@@ -6,6 +6,6 @@
 
 #include <math.h>
 
-
 float racine(float numb);
+
 #endif //TEST2_RACINE_H
