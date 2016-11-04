@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "addition.h"
+#include "multiplication.h"
 
 int main()
 {
@@ -10,6 +11,7 @@ int main()
     printf("mes couilles");
 
     printf("%d\n", addition(2,3));
+	printf("%lf\n", multiplication(2,3));
 
     return 0;
 }
