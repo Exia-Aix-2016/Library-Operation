@@ -6,7 +6,7 @@
 
 int main(void)
 {
-    int a = 0, b = 0;
+    float a = 0.0, b = 0.0;
     printf("Hello world!\n");
     printf("test\n");
     printf("Release\n");
