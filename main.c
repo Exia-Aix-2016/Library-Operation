@@ -9,10 +9,10 @@ int main(void)
     printf("Hello world!\n");
     printf("test\n");
 
-    printf("Release");
+    printf("Release\n");
 
     printf("%d\n", addition(2,3));
-	printf("%lf\n", multi(2,3));
-	printf("%lf\n", soustraction(2,3));
+	printf("%g\n", multi(2,3));
+	printf("%g\n", soustraction(2,3));
     return 0;
 }
