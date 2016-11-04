@@ -35,11 +35,11 @@ int main(void)
 
    //On choisit le type d'opération que l'on rentre dans "choix"
     printf("Type d'operation :\n");
-    printf("1. addition\n");
-    printf("2. multiplication\n");
-    printf("3. soustraction\n");
-    printf("4. Racine (a^b)\n");
-    printf("5. puissance\n");
+    printf("1. Addition\n");
+    printf("2. Multiplication\n");
+    printf("3. Soustraction\n");
+    printf("4. Racine\n");
+    printf("5. Puissance (a^b)\n");
     scanf("%d", &choix);
 
     //Selection
