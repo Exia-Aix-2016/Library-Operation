@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include "addition.h"
 
+#include "soustraction.h"
+
 int main()
 {
     printf("Hello world!\n");
@@ -10,6 +12,8 @@ int main()
     printf("mes couilles");
 
     printf("%d\n", addition(2,3));
+
+    soustraction ();
 
     return 0;
 }
