@@ -12,10 +12,7 @@ int main(void)
     printf("Release");
 
     printf("%d\n", addition(2,3));
-	printf("%lf\n", multiplication(2,3));
-	printf("%d\n", soustraction(2,3));
-
-    soustraction ();
-
+	printf("%lf\n", multi(2,3));
+	printf("%lf\n", soustraction(2,3));
     return 0;
 }
