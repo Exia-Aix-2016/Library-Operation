@@ -4,5 +4,5 @@
 #include "Racine.h"
 float racine(float numb)
 {
-    return sqrt(numb);
+    return (float)sqrt(numb);
 }
