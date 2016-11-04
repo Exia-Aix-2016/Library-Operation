@@ -24,14 +24,37 @@ int main(void)
     
     //On demande les nombre à l'utilisateur.
     printf("Saisissez vos nombres \n");
-    printf("nombre 1\n");
+    printf("nombre 1 : ");
     scanf("%f", &a);
-    printf("nombre 2\n");
+    printf("nombre 2 : ");
     scanf("%f", &b);
-    printf("addition : %g\n", addition(a,b));
-	printf(" multiplication : %g\n", multi(a,b));
-	printf("soustraction : %g\n", soustraction(a,b));
+
+    int choix;
+
+   //On choisit le type d'opération que l'on rentre dans "choix"
+    printf("Type d'operation :\n");
+    printf("1. addition\n");
+    printf("2. multiplication\n");
+    printf("3. soustraction\n");
+    scanf("%d", &choix);
+
+    switch (choix) {
+        case 1:
+            printf("resultat : %g\n", addition(a, b));
+            break;
+        case 2:
+            printf(" resultat : %g\n", multi(a, b));
+            break;
+        case 3:
+            printf("resultat : %g\n", soustraction(a, b));
+            break;
+
+
+
+    }
+
     system("pause");
+
     return 0;
 }
 
