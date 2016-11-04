@@ -38,7 +38,7 @@ int main(void)
     printf("3. soustraction\n");
     scanf("%d", &choix);
 
-    //Selection 
+    //Selection
     switch (choix) {
         case 1:
             printf("resultat : %g\n", addition(a, b));
