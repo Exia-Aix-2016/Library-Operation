@@ -10,7 +10,7 @@ int main()
     printf("Hello world!\n");
     printf("test\n");
 
-    printf("mes couilles");
+    printf("Release");
 
     printf("%d\n", addition(2,3));
 	printf("%lf\n", multiplication(2,3));
