@@ -3,7 +3,7 @@
 #include "addition.h"
 #include "multiplication.h"
 #include "soustraction.h"
-//V2 release
+//release V2
 int main(void)
 {
     float a = 0.0, b = 0.0;
