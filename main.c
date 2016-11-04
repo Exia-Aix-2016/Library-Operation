@@ -38,8 +38,8 @@ int main(void)
     printf("1. addition\n");
     printf("2. multiplication\n");
     printf("3. soustraction\n");
-    printf("4. puissance (a^b)\n");
-    printf("5. Racine\n");
+    printf("4. Racine (a^b)\n");
+    printf("5. puissance\n");
     scanf("%d", &choix);
 
     //Selection
