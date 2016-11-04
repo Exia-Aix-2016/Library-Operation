@@ -28,10 +28,9 @@ int main(void)
     scanf("%f", &a);
     printf("nombre 2\n");
     scanf("%f", &b);
-    //On affiche
-    printf("addition : %f\n", addition(a,b));
-	printf(" multiplication : %f\n", multi(a,b));
-	printf("soustraction : %f\n", soustraction(a,b));
+    printf("addition : %g\n", addition(a,b));
+	printf(" multiplication : %g\n", multi(a,b));
+	printf("soustraction : %g\n", soustraction(a,b));
     system("pause");
     return 0;
 }
