@@ -32,3 +32,8 @@
 *.dSYM/
 
 .idea/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+test2
