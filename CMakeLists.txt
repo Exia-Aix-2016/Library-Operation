@@ -8,3 +8,5 @@ set(SOURCE_FILES
 
 
 add_executable(test2 ${SOURCE_FILES})
+
+target_link_libraries(test2 m)
